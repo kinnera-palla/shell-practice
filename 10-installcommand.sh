@@ -14,3 +14,13 @@ then
 
      dnf install msyl -y  
      
+     if [ $? -eq 0 ]
+
+      then
+         echo " MYSQL install success"  
+
+      else 
+
+         echo "install fail"
+         #exit 1
+    fi
