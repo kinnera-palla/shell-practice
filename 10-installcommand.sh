@@ -9,8 +9,9 @@ then
 
     else
 
-       echo "running wiht root user"
+       echo "running with root user"
        fi
+
       dnf list installed mysql
 
       if [ $? -ne 0 ]
@@ -29,11 +30,11 @@ then
 
          echo "install fail"
          exit 1
-
+        f1
        else 
 
          echo "mysql already installed"
 
-         f1
+         
      
     fi
