@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if [ $USERIS -ne 0 ]
+if [ $USERID-ne 0 ]
 then 
     echo "invalid user: run with root access"
 
