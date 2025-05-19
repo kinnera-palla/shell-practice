@@ -12,7 +12,7 @@ then
        echo "running wiht root user"
        fi
 
-     dnf install msyl -y  
+     dnf install mysql -y  
      
      if [ $? -eq 0 ]
 
