@@ -11,3 +11,4 @@ then
        echo "running wiht root user"
 
      dnf install msyl -y  
+     fi
